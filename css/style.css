@@ -9839,16 +9839,26 @@ button.swiper-pagination-bullet {
   bottom: 60px; }
 
 .swiper-welcome-next {
+  width: 83px !important;
+  height: 6px !important;
+  background-image: url("../img/vpravo-welcome.png") !important;
+  -webkit-background-size: 83px 6px !important;
+  background-size: 83px 6px !important;
   top: auto;
-  bottom: 52px;
+  bottom: 70px;
   right: 50%;
   -webkit-transform: translateX(150%);
   -ms-transform: translateX(150%);
   transform: translateX(150%); }
 
 .swiper-welcome-prev {
+  width: 83px !important;
+  height: 6px !important;
+  background-image: url("../img/vlevo-welcome.png") !important;
+  -webkit-background-size: 83px 6px !important;
+  background-size: 83px 6px !important;
   top: auto;
-  bottom: 52px;
+  bottom: 70px;
   left: 50%;
   -webkit-transform: translateX(-150%);
   -ms-transform: translateX(-150%);
