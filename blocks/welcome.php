@@ -11,7 +11,7 @@
 						</div>
 						<div class="swiper-slide">
 							<div class="welcome__img">
-								<img src="<?php bloginfo('template_url') ?>/img/1.png" alt="">
+								<img src="<?php bloginfo('template_url') ?>/img/slider2.png" alt="">
 							</div>
 						</div>
 					</div>

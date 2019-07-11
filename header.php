@@ -37,7 +37,7 @@
               </div>
             </div>
             <div class="header__right">
-              <a href="http://status-autotuning.ru/">www.status-autotuning.ru</a>
+              <a href="http://carbonart.ru/">CarbonArt.ru</a>
             </div>
           </div>
         </div>
