@@ -9748,7 +9748,7 @@ button.swiper-pagination-bullet {
     line-height: 1.1;
     text-align: right;
     text-transform: uppercase;
-    z-index: 2;
+    z-index: 5;
     opacity: 0; }
     .welcome__title.puk-fade {
       opacity: 1;
@@ -9778,7 +9778,7 @@ button.swiper-pagination-bullet {
     color: #ffffff;
     font-family: 'Roboto-Black';
     font-size: 81px;
-    z-index: 2; }
+    z-index: 5; }
     .welcome__order-price {
       opacity: 0;
       margin-bottom: 30px; }

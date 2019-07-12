@@ -40,7 +40,13 @@ var swiperMainWelcome = function() {
       slidesPerView: 1,
       centeredSlides: true,
       effect: 'fade',
+      fadeEffect: {
+        crossFade: true
+      },
       loop: true,
+      autoplay: {
+        delay: 3000,
+      },
       pagination: {
         el: '.swiper-welcome-pagination',
       },
