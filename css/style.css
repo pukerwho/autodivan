@@ -9790,6 +9790,7 @@ button.swiper-pagination-bullet {
       .welcome__order-price span {
         font-size: 48px; }
     .welcome__order-button {
+      position: relative;
       display: inline-block;
       color: #ffffff;
       font-family: 'Roboto-Regular';
@@ -9804,7 +9805,8 @@ button.swiper-pagination-bullet {
         opacity: 1;
         -webkit-transition: opacity 0.4s 1.1s, border 0.3s;
         -o-transition: opacity 0.4s 1.1s, border 0.3s;
-        transition: opacity 0.4s 1.1s, border 0.3s; }
+        transition: opacity 0.4s 1.1s, border 0.3s;
+        z-index: 5; }
       .welcome__order-button:hover {
         border: 1px solid #3B0F4A;
         -webkit-transition: all 0.3s;
@@ -9836,7 +9838,8 @@ button.swiper-pagination-bullet {
       z-index: 2; }
 
 .swiper-welcome-pagination.swiper-pagination-bullets {
-  bottom: 60px; }
+  bottom: 60px;
+  z-index: -1; }
 
 .swiper-welcome-next {
   width: 83px !important;
@@ -10704,12 +10707,6 @@ html.lb-disable-scrolling {
   .header__right {
     display: none; }
 
-  .welcome__block {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column; }
   .welcome__title {
     position: relative;
     top: 0;
@@ -10830,6 +10827,9 @@ html.lb-disable-scrolling {
   .swiper-welcome-container .swiper-slide {
     width: 100% !important; }
   .swiper-welcome-container .swiper-pagination, .swiper-welcome-container .swiper-button-next, .swiper-welcome-container .swiper-button-prev {
-    display: none; } }
+    display: none; }
+
+  .callback__box {
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

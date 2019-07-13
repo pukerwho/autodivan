@@ -8,28 +8,33 @@
 							<div class="welcome__img">
 								<img src="<?php bloginfo('template_url') ?>/img/1.png" alt="">
 							</div>
-							<div class="welcome__title">
-								Диван
-								<br>премиум
-								<br>класса
-								<span class="welcome__title-inner">
-									<br>Mercedes
-									<br>S Class
-									<br>W222
-								</span>
+							<div>
+								<div class="welcome__title">
+									Диван
+									<br>премиум
+									<br>класса
+									<span class="welcome__title-inner">
+										<br>Mercedes
+										<br>S Class
+										<br>W222
+									</span>
+								</div>
+								<div class="welcome__order">
+									<div class="welcome__order-price">
+										<div class="pc-show">
+											<span>от</span> 999 000 <span>&#8381;</span>	
+										</div>
+										<div class="mobile-show">
+											<span>от</span><br>999 000 <span>&#8381;</span>	
+										</div>
+									</div>
+									<div class="welcome__order-button callback">
+										Заказать
+									</div>
+								</div>
 							</div>
-							<div class="welcome__order">
-								<div class="welcome__order-price">
-									<div class="pc-show">
-										<span>от</span> 999 000 <span>&#8381;</span>	
-									</div>
-									<div class="mobile-show">
-										<span>от</span><br>999 000 <span>&#8381;</span>	
-									</div>
-								</div>
-								<div class="welcome__order-button callback">
-									Заказать
-								</div>
+							<div class="welcome__notice">
+								Конечная стоимость зависит от комплектации
 							</div>
 						</div>
 						<div class="swiper-slide">
@@ -58,6 +63,9 @@
 									Заказать
 								</div>
 							</div>
+							<div class="welcome__notice">
+								Конечная стоимость зависит от комплектации
+							</div>
 						</div>
 					</div>
 					<!-- Add Pagination -->
@@ -65,10 +73,6 @@
 			    <!-- Add Arrows -->
 			    <div class="swiper-button-next swiper-welcome-next"></div>
 			    <div class="swiper-button-prev swiper-welcome-prev"></div>
-				</div>
-				
-				<div class="welcome__notice">
-					Конечная стоимость зависит от комплектации
 				</div>
 			</div>
 		</div>
